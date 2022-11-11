@@ -16,4 +16,6 @@ class TestLogin(Base):
         HomePage(driver).send_text_user("standard_user")
         HomePage(driver).send_password("secret_sauce")
         HomePage(driver).send_button()
+        HomePage(driver).send_add_cart()
+        HomePage(driver).send_shopping()
 
